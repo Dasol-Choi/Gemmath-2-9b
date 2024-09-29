@@ -71,7 +71,6 @@ outputs = model.generate(
 
 answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(f"Answer: {answer}")
-
 ```
 
 ## Limitations
@@ -79,7 +78,5 @@ print(f"Answer: {answer}")
 The evaluation is based solely on accuracy for a 5-option multiple-choice task. This provides a high-level performance metric but does not fully capture the model's reasoning ability or performance on more complex, open-ended math problems. A deeper analysis is required to explore the model's problem-solving skills.
 
 
-##  Model Card Contact
 
-If you have any questions or feedback, feel free to contact:
-- Email: dasolcoi@yonsei.ac.kr
+> If you have any questions or feedback, feel free to contact: dasolcoi@yonsei.ac.kr
