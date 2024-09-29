@@ -22,7 +22,7 @@ The training process included:
 - Framework: Fine-tuning was conducted using Unsloth, enabling faster training and better memory efficiency.
 
 ## Evaluation
-The model was evaluated using the **MathQA test dataset** with **accuracy** as the primary metric. The following table compares its performance to other models:
+The model was evaluated using the **MathQA test dataset(2985 examples)** with **accuracy** as the primary metric. The following table compares its performance to other models:
 
 | Model                | Accuracy (%)  |
 |----------------------|---------------|
@@ -31,7 +31,7 @@ The model was evaluated using the **MathQA test dataset** with **accuracy** as t
 | Llama-3.1-8b-Instruct | 27.37      |
 | Llama-3.2-3b-Instruct | 23.48      |
 | Qwen2.5-7B-Instruct  | 38.69         |
-| **mathGemma-2-9b**  | **42.479**    |
+| **mathGemma-2-9b**  | **42.48**    |
 
 
 ## How to Get Started with the Model
@@ -39,8 +39,8 @@ The model was evaluated using the **MathQA test dataset** with **accuracy** as t
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = AutoTokenizer.from_pretrained("Dasool/math_gemma-2-9b")
-model = AutoModelForCausalLM.from_pretrained("Dasool/math_gemma-2-9b")
+tokenizer = AutoTokenizer.from_pretrained("Dasool/mathGemma-2-9b")
+model = AutoModelForCausalLM.from_pretrained("Dasool/mathGemma-2-9b")
 
 # Example usage
 inputs = tokenizer("Solve: 12 + 7", return_tensors="pt")
