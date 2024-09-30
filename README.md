@@ -30,6 +30,7 @@ The model was evaluated using the **MathQA test dataset(2985 examples)** with **
 | Mistral-7B-Instruct   | 22.61       |
 | Llama-3.1-8b-Instruct | 27.37      |
 | Llama-3.2-3b-Instruct | 23.48      |
+| Qwen2-Math-7B-Instruct| 33.13     |
 | Qwen2.5-7B-Instruct  | 38.69         |
 | **mathGemma-2-9b**  | **48.91**    |
 
