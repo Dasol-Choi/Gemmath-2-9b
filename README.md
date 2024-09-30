@@ -1,5 +1,6 @@
 # mathGemma-2-9b
-This model is based on the Gemma-2-9b architecture and has been fine-tuned using two math problem datasets to improve its accuracy in solving mathematical tasks.
+- This model is based on the **Gemma-2-9b** architecture and has been fine-tuned using two math problem datasets to improve its accuracy in solving mathematical tasks.
+- This work was done as part of the **Google Machine Learning Bootcamp Gemma Sprint**.
 
 ## Datasets
 
@@ -73,6 +74,7 @@ outputs = model.generate(
 answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(f"Answer: {answer}")
 ```
+🔗 You can also explore the model on **[Hugging Face](https://huggingface.co/Dasool/mathGemma-2-9b)**.
 
 ## Limitations
 
