@@ -1,4 +1,4 @@
-# gemmath-2-9b
+# Gemmath-2-9b
 - This model is based on the **Gemma-2-9b** architecture and has been fine-tuned using two math problem datasets to improve its accuracy in solving mathematical tasks.
 - This work was done as part of the **Google Machine Learning Bootcamp Gemma Sprint**.
 
@@ -33,7 +33,7 @@ The model was evaluated using the **MathQA test dataset(2985 examples)** with **
 | Llama-3.2-3b-Instruct | 23.48      |
 | Qwen2-Math-7B-Instruct| 33.13     |
 | Qwen2.5-7B-Instruct  | 38.69         |
-| **gemmath-2-9b**  | **48.91**    |
+| **Gemmath-2-9b**  | **48.91**    |
 
 
 ## How to Get Started with the Model
